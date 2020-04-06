@@ -14,10 +14,10 @@ jupyter_client            5.3.4
 jupyter_console           6.1.0  
 jupyter_core              4.6.1  
 
-上面這些都可以使用conda安裝，
-但selenium需要一個chromedriver，
+上面這些都可以使用conda安裝，  
+但selenium需要一個chromedriver，  
 建議自行去官網[下載](https://chromedriver.chromium.org/downloads/)(對應的Chrome版本＆作業系統)，  
-解壓縮在與.ipynb同樣資料夾底下即可。
+解壓縮在與.ipynb同樣資料夾底下即可。  
 
 ### 備註
 預設的輸出資料夾名稱為result，執行.ipynb會自動建立(包含子目錄)
@@ -27,8 +27,8 @@ jupyter_core              4.6.1
 ### Part 1~3 
 使用selenium對整個網頁進行DOM分析並產生new_url_results.json。
 ### Part 4
- 讀取new_url_results.json並將其轉為字典(key:網頁圖片的下載網址, value:將儲存圖片的本地端絕對位置)
- 同時也建立本地端對應圖片的資料夾。
+ 讀取new_url_results.json並將其轉為字典(key:網頁圖片的下載網址, value:將儲存圖片的本地端絕對位置)，
+ 同時也建立本地端對應圖片的資料夾。  
 ### Part 5
- 多程序(Multiprocess)下載圖片到本地端。
+多程序(Multiprocess)下載圖片到本地端。
 
