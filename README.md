@@ -1,25 +1,25 @@
 ## 功能簡述
-從網站的相簿中下載圖片到本地端， 
-使用selenium取得DOM，使用multiprocessing並行下載圖片。 
+從網站的相簿中下載圖片到本地端，  
+使用selenium取得DOM，使用multiprocessing並行下載圖片。  
 
 ## 環境
-macOS Mojave 10.14.6（18G2022）
-Python 3.6.10 :: Anaconda, Inc.
-selenium                  3.5.0
-urllib3                   1.22 
+macOS Mojave 10.14.6（18G2022）  
+Python 3.6.10 :: Anaconda, Inc.  
+selenium                  3.5.0  
+urllib3                   1.22  
 
 #### 其實底下這幾行，只要conda install jupyter就完成
-jupyter                   1.0.0
-jupyter_client            5.3.4 
-jupyter_console           6.1.0 
-jupyter_core              4.6.1 
+jupyter                   1.0.0  
+jupyter_client            5.3.4  
+jupyter_console           6.1.0  
+jupyter_core              4.6.1  
 
 上面這些都可以使用conda安裝，
 但selenium需要一個chromedriver，
-建議自行去官網[下載](https://chromedriver.chromium.org/downloads/)(對應的Chrome版本＆作業系統)， 
+建議自行去官網[下載](https://chromedriver.chromium.org/downloads/)(對應的Chrome版本＆作業系統)，  
 解壓縮在與.ipynb同樣資料夾底下即可。
 
-## 備註
+### 備註
 預設的輸出資料夾名稱為result，執行.ipynb會自動建立(包含子目錄)
 
 ## 程式大綱
