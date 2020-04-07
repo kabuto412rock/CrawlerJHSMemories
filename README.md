@@ -24,7 +24,7 @@ jupyter_core              4.6.1
 解壓縮在與.ipynb同樣資料夾底下即可。  
 
 Scrapy版本不需要安裝selenium，且速度更快。
-但Scrapy目前只先產生下載圖片URL的JSON檔，尚未實作下載部分。
+但Scrapy目前只先產生[下載圖片URL的JSON檔](./ScrapyCrawlerJHS/scrapyJHS/hello.json)，尚未實作下載部分。
 ### 備註
 預設的輸出資料夾名稱為result，執行.ipynb會自動建立(包含子目錄)
 
