@@ -1,3 +1,7 @@
+## 版本變更
+目前主程式有兩個，Scrapy版本是改良過  
+1. [.ipynb版本](./.ipynb_checkpoints/爬蟲國中時期的照片-checkpoint.ipynb)使用selenium爬蟲  
+2. [Scrapy版本](./ScrapyCrawlerJHS/)使用Scrapy爬取圖片的下載Spyder專案
 ## 功能簡述
 從網站的相簿中下載圖片到本地端，  
 使用selenium取得DOM，使用multiprocessing並行下載圖片。  
@@ -19,6 +23,8 @@ jupyter_core              4.6.1
 建議自行去官網[下載](https://chromedriver.chromium.org/downloads/)(對應的Chrome版本＆作業系統)，  
 解壓縮在與.ipynb同樣資料夾底下即可。  
 
+Scrapy版本不需要安裝selenium，且速度更快。
+但Scrapy目前只先產生下載圖片URL的JSON檔，尚未實作下載部分。
 ### 備註
 預設的輸出資料夾名稱為result，執行.ipynb會自動建立(包含子目錄)
 
