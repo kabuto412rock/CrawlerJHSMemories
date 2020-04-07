@@ -27,7 +27,7 @@ jupyter_core              4.6.1
 ### Part 1~3 
 使用selenium對整個網頁進行DOM分析並產生new_url_results.json。
 ### Part 4
- 讀取new_url_results.json並將其轉為字典(key:網頁圖片的下載網址, value:將儲存圖片的本地端絕對位置)，
+ 讀取new_url_results.json並將其轉為字典(key:網頁圖片的下載網址, value:將儲存圖片的本地端絕對位置)，  
  同時也建立本地端對應圖片的資料夾。  
 ### Part 5
 多程序(Multiprocess)下載圖片到本地端。
